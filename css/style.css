@@ -28,3 +28,22 @@ body{
 .main-header{
     margin-top: 140px;
 }
+
+/* Section .hero */
+
+.hero .overlay{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #f8f8f871;
+    font-size: 40px;
+    color: var(--gray);
+}
+
+.hero:hover .overlay{
+    opacity: 1;
+    transition: 1s;
+}
