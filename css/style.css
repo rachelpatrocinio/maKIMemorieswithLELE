@@ -87,6 +87,10 @@ body{
 
 /* FOOTER */
 
+svg{
+    bottom: -15px;
+}
+
 .main-footer{
     background-color: var(--lightpink);
 }
