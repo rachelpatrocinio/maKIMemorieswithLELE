@@ -69,3 +69,103 @@ body{
 .hashtag h1{
     color: var(--darkpink);
 }
+
+/* Section .question-box */
+
+.question-box{
+    background-color: var(--lightpink);
+}
+
+.question-box .btn{
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+.slide-in-right{
+    animation-name: slide-in-right;
+    animation-duration: 0.8s;
+}
+
+@keyframes slide-in-right{
+    0%{
+        opacity:0;
+        transform: translateX(200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.slide-in-left{
+    animation-name: slide-in-left;
+    animation-duration: 0.8s;
+}
+
+@keyframes slide-in-left{
+    0%{
+        opacity:0;
+        transform: translateX(-200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.slide-in-top{
+    animation-name: slide-in-top;
+    animation-duration: 0.8s;
+}
+
+@keyframes slide-in-top{
+    0%{
+        opacity:0;
+        transform: translateY(-200px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.highlights{
+    animation-name: highlights;
+    animation-duration: 2.0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes highlights{
+
+    0%{
+        color: var(--gray);
+        border-color: var(--gray);
+    }
+
+    25% {
+        color: var(--darkpink);
+        border-color: var(--darkpink);
+    }
+
+    50%{
+        color: var(--gray);
+        border-color:  var(--gray);
+    }
+
+    75%{
+        color: var(--darkpink);
+        border-color: (var(--darkpink));
+    }
+
+    100%{
+        color: var(--gray);
+        border-color: var(--gray);
+    }
+
+}
