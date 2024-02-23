@@ -1,0 +1,17 @@
+@media screen and (min-width: 576px){
+
+/* HEADER */
+    .main-header{
+        padding-top: 70px;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+/* HEADER */
+    .main-header{
+        padding-top: 165px;
+    }
+}
+
+
