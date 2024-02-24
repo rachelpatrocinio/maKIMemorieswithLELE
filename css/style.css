@@ -85,6 +85,20 @@ body{
     width: 300px;
 }
 
+/* Section .matron-maid */
+
+.matron-maid img.title{
+    width: 300px;
+}
+
+img.rounded-circle{
+    width: 300px;
+}
+
+.matron-maid h6{
+    color: var(--gray);
+}
+
 /* FOOTER */
 
 svg{
