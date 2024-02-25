@@ -39,6 +39,15 @@ body{
     font-style: normal;
 }
 
+/* Utilities */
+.gray{
+    color: var(--gray);
+}
+
+.darkpink{
+    color: var(--darkpink);
+}
+
 /* HEADER */
 
 .main-header{
@@ -62,16 +71,6 @@ body{
 .hero:hover .overlay{
     opacity: 1;
     transition: 1s;
-}
-
-/* Section .hashtag */
-
-.hashtag h5{
-    color: var(--gray);
-}
-
-.hashtag h1{
-    color: var(--darkpink);
 }
 
 /* Section .question-box */
@@ -101,7 +100,6 @@ img.rounded-circle{
 }
 
 h6{
-    color: var(--gray);
     font-size: 10px;
 }
 
