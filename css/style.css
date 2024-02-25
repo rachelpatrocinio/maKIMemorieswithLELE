@@ -17,7 +17,8 @@ ul,ol,menu{
 }
 
 img,
-iframe{
+iframe,
+video{
     max-width: 100%;
 }
 
@@ -33,6 +34,7 @@ body{
     background-image: url("../texts/sfondo\ KIM_page-0001.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: var(--white);
 }
 
 .ubuntu-regular {
