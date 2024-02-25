@@ -161,8 +161,25 @@ svg.down{
 
 
 
-
-
+.reveal {
+    position: relative;
+    opacity: 0;
+}
+.reveal.active {
+    opacity: 1;
+}
+.active.slide-in-top {
+    animation: slide-in-top 0.9s ease-in;
+}
+.active.slide-in-left {
+    animation: slide-in-left 0.9s ease-in;
+}
+.active.slide-in-right {
+    animation:slide-in-right 0.9s ease-in;
+}
+.active.slide-in-bottom {
+    animation:slide-in-bottom 0.9s ease-in;
+}
 
 .grow{
     animation-name: grow;
@@ -190,15 +207,11 @@ svg.down{
     }
 }
 
-.slide-in-right{
-    animation-name: slide-in-right;
-    animation-duration: 0.8s;
-}
 
 @keyframes slide-in-right{
     0%{
         opacity:0;
-        transform: translateX(200px);
+        transform: translateX(100px);
     }
     100%{
         opacity: 1;
@@ -206,35 +219,37 @@ svg.down{
     }
 }
 
-.slide-in-left{
-    animation-name: slide-in-left;
-    animation-duration: 0.8s;
-}
 
 @keyframes slide-in-left{
     0%{
         opacity:0;
-        transform: translateX(-200px);
+        transform: translateX(-100px);
     }
     100%{
         opacity: 1;
         transform: translateX(0px);
     }
-}
-
-.slide-in-top{
-    animation-name: slide-in-top;
-    animation-duration: 0.8s;
 }
 
 @keyframes slide-in-top{
     0%{
         opacity:0;
-        transform: translateY(-200px);
+        transform: translateY(-100px);
     }
     100%{
         opacity: 1;
         transform: translateY(0px);
+    }
+}
+
+@keyframes slide-in-bottom{
+    0%{
+        opacity:0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
