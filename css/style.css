@@ -16,7 +16,8 @@ ul,ol,menu{
     list-style: none;
 }
 
-img{
+img,
+iframe{
     max-width: 100%;
 }
 
@@ -92,6 +93,12 @@ body{
 
 .us h3 + span{
     font-size: 10px;
+}
+
+/* Section .engagement-day */
+
+.engagement-day img.w-50{
+    aspect-ratio: 2 / 1;
 }
 
 /* Section .matron-maid & .bestman */
