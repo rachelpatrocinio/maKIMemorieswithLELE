@@ -85,7 +85,7 @@ body{
     width: 300px;
 }
 
-/* Section .matron-maid */
+/* Section .matron-maid & .bestman */
 
 img.title{
     width: 300px;
@@ -99,9 +99,14 @@ img.rounded-circle{
 
 h6{
     color: var(--gray);
+    font-size: 10px;
 }
 
-/* Section .bestman */
+/* Section .groomsmen-bridesmaids  */
+
+.groomsmen-bridesmaids img.rounded-circle{
+    width: 200px;
+}
 
 
 /* FOOTER */
