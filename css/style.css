@@ -110,6 +110,12 @@ h6{
 
 /* Section .groomsmen-bridesmaids  */
 
+.matron-maid h6,
+.bestman h6,
+.groomsmen-bridesmaids h6{
+    color: var(--gray);
+}
+
 /* FOOTER */
 
 svg.up{
