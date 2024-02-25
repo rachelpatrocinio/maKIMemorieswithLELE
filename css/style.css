@@ -110,8 +110,13 @@ h6{
 
 /* FOOTER */
 
-svg{
+svg.up{
     bottom: -10px;
+}
+
+svg.down{
+    transform: rotate(180deg);
+    top: -10px;
 }
 
 .main-footer{
