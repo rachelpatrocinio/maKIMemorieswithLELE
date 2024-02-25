@@ -97,17 +97,16 @@ img.rounded-circle{
     object-fit: cover;
 }
 
+.groomsmen-bridesmaids img.rounded-circle{
+    width: 155px;
+}
+
 h6{
     color: var(--gray);
     font-size: 10px;
 }
 
 /* Section .groomsmen-bridesmaids  */
-
-.groomsmen-bridesmaids img.rounded-circle{
-    width: 200px;
-}
-
 
 /* FOOTER */
 

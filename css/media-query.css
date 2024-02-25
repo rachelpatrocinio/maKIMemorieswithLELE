@@ -4,6 +4,13 @@
     .main-header{
         padding-top: 70px;
     }
+
+
+/* Section .groomsmen-bridesmaids */
+
+    img.rounded-circle{
+        width: 300px;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -12,13 +19,6 @@
     .main-header{
         padding-top: 165px;
     }
-
-/* Section .groomsmen-bridesmaids */
-
-    .groomsmen-bridesmaids img.rounded-circle{
-        width: 300px;
-    }
-
 }
 
 
