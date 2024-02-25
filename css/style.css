@@ -152,7 +152,7 @@ svg.down{
     border-top: 1px solid var(--white);
 }
 
-.main-footer .creator img{
+.main-footer .creator img:first-child{
     border: 3px solid var(--brown);
 }
 
