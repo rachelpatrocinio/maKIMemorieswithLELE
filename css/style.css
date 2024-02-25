@@ -54,6 +54,10 @@ body{
     color: var(--red);
 }
 
+.ratio-1x2{
+    aspect-ratio: 1 / 2;
+}
+
 /* HEADER */
 
 .main-header{
