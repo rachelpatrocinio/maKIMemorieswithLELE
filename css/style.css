@@ -172,19 +172,19 @@ svg.down{
 
 @keyframes grow{
     0%{
-        transform: scale(1.1);
+        transform: scale(0.7);
         transition: all .1s ease-in-out;
 
     }
 
     50%{
-        transform: scale(1);
+        transform: scale(0.9);
         transition: all .1s ease-in-out;
 
     }
 
     100%{
-        transform: scale(1.1);
+        transform: scale(0.7);
         transition: all .1s ease-in-out;
 
     }
