@@ -88,6 +88,12 @@ body{
     width: 300px;
 }
 
+/* Sectiom .us */
+
+.us h3 + span{
+    font-size: 10px;
+}
+
 /* Section .matron-maid & .bestman */
 
 img.title{
