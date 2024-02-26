@@ -130,8 +130,7 @@ h6{
 /* Section .groomsmen-bridesmaids  */
 
 .matron-maid h6,
-.bestman h6,
-.groomsmen-bridesmaids h6{
+.bestman h6{
     color: var(--gray);
 }
 
@@ -168,16 +167,20 @@ svg.down{
 .reveal.active {
     opacity: 1;
 }
-.active.slide-in-top {
+.active.slide-in-top,
+._slide-in-top{
     animation: slide-in-top 0.9s ease-in;
 }
-.active.slide-in-left {
+.active.slide-in-left,
+._slide-in-left{
     animation: slide-in-left 0.9s ease-in;
 }
-.active.slide-in-right {
+.active.slide-in-right,
+._slide-in-right{
     animation:slide-in-right 0.9s ease-in;
 }
-.active.slide-in-bottom {
+.active.slide-in-bottom,
+._slide-in-bottom{
     animation:slide-in-bottom 0.9s ease-in;
 }
 
