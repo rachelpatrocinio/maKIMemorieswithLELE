@@ -8,6 +8,7 @@
     --lightgray: #BEBEBE;
     --brown: #AB9888;
     --red: rgb(194, 30, 30);
+    --gold: #E5CA8C;
 }
 
 /* RESET */
@@ -58,6 +59,36 @@ body{
 
 .ratio-1x2{
     aspect-ratio: 1 / 2;
+}
+
+/* Features */
+
+.btn-darkpink{
+    border: 1px solid var(--darkpink);
+    border-radius: 50px;
+    color: var(--darkpink);
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.btn-gray{
+    border: 1px solid var(--gray);
+    border-radius: 50px;
+    color: var(--gray);
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.btn-gold{
+    border: 1px solid var(--gold);
+    border-radius: 50px;
+    color: var(--gold);
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.btn-darkpink:hover, .btn-gray:hover, .bnt-gold:hover{
+    background-color: var(--lightpink);
 }
 
 /* HEADER */
@@ -119,8 +150,9 @@ img.rounded-circle{
     object-fit: cover;
 }
 
-.groomsmen-bridesmaids img.rounded-circle{
-    width: 155px;
+.matron-maid h6,
+.bestman h6{
+    color: var(--gray);
 }
 
 h6{
@@ -129,10 +161,15 @@ h6{
 
 /* Section .groomsmen-bridesmaids  */
 
-.matron-maid h6,
-.bestman h6{
-    color: var(--gray);
+
+.groomsmen-bridesmaids img.rounded-circle{
+    width: 155px;
 }
+
+
+
+
+
 
 /* FOOTER */
 

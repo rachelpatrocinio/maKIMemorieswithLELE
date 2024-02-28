@@ -19,6 +19,18 @@
     .main-header{
         padding-top: 165px;
     }
+
+/* Section .hashtag */
+    .hashtag h6{
+        font-size: 20px;
+    }
+
+/* Section .groomsmen-bridesmaids */
+    .groomsmen-bridesmaids h6,
+    .bestman h6,
+    .matron-maid h6{
+        font-size: 16px;
+    }
 }
 
 
