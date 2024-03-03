@@ -207,6 +207,10 @@ svg.down{
     border: 3px solid var(--brown);
 }
 
+.main-footer p span{
+    text-decoration: underline;
+}
+
 
 
 
