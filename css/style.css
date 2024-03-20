@@ -268,7 +268,7 @@ svg.down{
 @keyframes slide-in-right{
     0%{
         opacity:0;
-        transform: translateX(100px);
+        transform: translateX(50px);
     }
     100%{
         opacity: 1;
@@ -280,7 +280,7 @@ svg.down{
 @keyframes slide-in-left{
     0%{
         opacity:0;
-        transform: translateX(-100px);
+        transform: translateX(-50px);
     }
     100%{
         opacity: 1;
@@ -291,7 +291,7 @@ svg.down{
 @keyframes slide-in-top{
     0%{
         opacity:0;
-        transform: translateY(-100px);
+        transform: translateY(-50px);
     }
     100%{
         opacity: 1;
@@ -302,7 +302,7 @@ svg.down{
 @keyframes slide-in-bottom{
     0%{
         opacity:0;
-        transform: translateY(100px);
+        transform: translateY(50px);
     }
     100%{
         opacity: 1;
